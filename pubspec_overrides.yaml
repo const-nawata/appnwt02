@@ -1,0 +1,4 @@
+# melos_managed_dependency_overrides: packnwt1
+dependency_overrides:
+  packnwt1:
+    path: ..\\..\\packages\\packnwt1
