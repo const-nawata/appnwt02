@@ -1,4 +1,6 @@
-# melos_managed_dependency_overrides: packnwt1
+# melos_managed_dependency_overrides: packnwt1,packnwt2
 dependency_overrides:
   packnwt1:
     path: ..\\..\\packages\\packnwt1
+  packnwt2:
+    path: ..\\..\\packages\\packnwt2

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:packnwt1/packnwt1.dart';
+import 'package:packnwt2/packnwt2.dart';
 
 void main() {
   runApp(const MyApp());
@@ -36,6 +37,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void _incrementCounter() {
     PackNwt1().init();
+    PackNwt2().init();
 
     setState(() {
       _counter++;
